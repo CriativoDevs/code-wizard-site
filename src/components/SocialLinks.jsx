@@ -15,6 +15,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/pablo-iii-bb7b88a2/",
+      style: "rounded-tr-md"
     },
     {
       id: 2,
@@ -54,16 +55,29 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.fiverr.com/pablo_iii",
+      style: "rounded-br-md"
     },
+    // {
+    //   id: 5,
+    //   child: (
+    //     <>
+    //       Resume <TbBrandFiverr size={30} />
+    //     </>
+    //   ),
+    //   href: "Put the resume on public folder",
+    //   style: "rounded-br-md",
+    //   download: true
+    // },
   ];
 
   return (
     <div className="flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href }) => (
+        {links.map(({ id, child, href, style }) => (
           <li
             key={id}
-            className="flex justify-center items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-2px] hover:rounded-md duration-300 bg-gray-500"
+            // eslint-disable-next-line
+            className={"flex justify-center items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-2px] hover:rounded-md duration-300 bg-gray-500" + " " + style}
           >
             <a
               href={href}
