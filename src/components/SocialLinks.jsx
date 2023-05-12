@@ -1,7 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsWhatsapp, BsInstagram } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
+import { TbBrandFiverr } from "react-icons/tb";
 
 const SocialLinks = () => {
   const links = [
@@ -49,10 +50,10 @@ const SocialLinks = () => {
       id: 5,
       child: (
         <>
-          Person <BsInstagram size={30} />
+          Fiverr <TbBrandFiverr size={30} />
         </>
       ),
-      href: "https://www.instagram.com/_pabloiii/",
+      href: "https://www.fiverr.com/pablo_iii",
     },
   ];
 
@@ -62,7 +63,7 @@ const SocialLinks = () => {
         {links.map(({ id, child, href }) => (
           <li
             key={id}
-            className="flex justify-center items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[10px] hover:rounded-md duration-300 bg-gray-500"
+            className="flex justify-center items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-2px] hover:rounded-md duration-300 bg-gray-500"
           >
             <a
               href={href}
