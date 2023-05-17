@@ -6,7 +6,6 @@ import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import usestate from "../assets/portfolio/usestate.jpg";
 import dentistaApp from '../assets/portfolio/dentistapp.png'
-import "./Portfolio.css"
 
 const Portfolio = () => {
   const images = [
