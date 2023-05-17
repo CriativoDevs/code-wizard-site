@@ -8,20 +8,21 @@ import JavaScript from "../assets/javascript.png";
 import Python from "../assets/python.png";
 import ReactJS from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
+// import "./Experience.css"
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: GitHub,
-      title: "Github",
-      style: "shadow-gray-400"
+      src: Python,
+      title: "Python",
+      style: "shadow-blue-600"
     },
     {
       id: 2,
-      src: Css,
-      title: "Css",
-      style: "shadow-blue-400"
+      src: JavaScript,
+      title: "JavaScript",
+      style: "shadow-yellow-500"
     },
     {
       id: 3,
@@ -31,48 +32,30 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: Drf,
-      title: "Django Rest Framework",
-      style: "shadow-red-500"
-    },
-    {
-      id: 5,
-      src: Html,
-      title: "Html",
-      style: "shadow-orange-500"
-    },
-    {
-      id: 6,
-      src: JavaScript,
-      title: "JavaScript",
-      style: "shadow-yellow-500"
-    },
-    {
-      id: 7,
-      src: Python,
-      title: "Python",
-      style: "shadow-blue-600"
-    },
-    {
-      id: 8,
       src: ReactJS,
       title: "ReactJS",
       style: "shadow-blue-300"
     },
     {
-      id: 9,
+      id: 5,
       src: Tailwind,
       title: "Tailwind",
       style: "shadow-green-100"
+    },
+    {
+      id: 6,
+      src: GitHub,
+      title: "Github",
+      style: "shadow-gray-400"
     },
   ];
   return (
     <div
       name="experience"
-      className=" bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className=" bg-gradient-to-b from-gray-800 to-black w-full h-screen exp_height"
     >
       <div className=" max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className="pb-8 max-sm:mt-80">
+        <div className="pb-8">
           <p className=" text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
