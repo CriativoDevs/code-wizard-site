@@ -1,14 +1,10 @@
 import React from "react";
 import GitHub from "../assets/github.png";
-import Css from "../assets/css.png";
 import Django from "../assets/django.png";
-import Drf from "../assets/drf.jpg";
-import Html from "../assets/html.png";
 import JavaScript from "../assets/javascript.png";
 import Python from "../assets/python.png";
 import ReactJS from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
-// import "./Experience.css"
 
 const Experience = () => {
   const techs = [
