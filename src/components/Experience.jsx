@@ -12,48 +12,48 @@ const Experience = () => {
       id: 1,
       src: Python,
       title: "Python",
-      style: "shadow-blue-600"
+      style: "shadow-blue-600",
     },
     {
       id: 2,
       src: JavaScript,
       title: "JavaScript",
-      style: "shadow-yellow-500"
+      style: "shadow-yellow-500",
     },
     {
       id: 3,
       src: Django,
       title: "Django",
-      style: "shadow-green-800"
+      style: "shadow-green-800",
     },
     {
       id: 4,
       src: ReactJS,
       title: "ReactJS",
-      style: "shadow-blue-300"
+      style: "shadow-blue-300",
     },
     {
       id: 5,
       src: Tailwind,
       title: "Tailwind",
-      style: "shadow-green-100"
+      style: "shadow-green-100",
     },
     {
       id: 6,
       src: GitHub,
       title: "Github",
-      style: "shadow-gray-400"
+      style: "shadow-gray-400",
     },
   ];
   return (
     <div
-      name="experience"
+      name="stack"
       className=" bg-gradient-to-b from-gray-800 to-black w-full h-screen exp_height"
     >
       <div className=" max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
           <p className=" text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Stack
           </p>
           <p className=" py-6">These are the technologies I've worked with.</p>
         </div>
