@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+// import HeroImage from "../assets/heroImage.jpg";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -12,7 +12,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Hi, my name is Pablo.
+            Hi, welcome to Criativo Devs.
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I am a Full Stack Developer of Code Wizard. I have more then 5 years
@@ -27,18 +27,21 @@ const Home = () => {
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <MdKeyboardArrowRight size={25} className="ml-1" />
+                <MdKeyboardArrowRight
+                  size={25}
+                  className="ml-1"
+                />
               </span>
             </Link>
           </div>
         </div>
-        <div>
+        {/* <div>
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl max-w-0.5 w-2/3 md:w-full"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

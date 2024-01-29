@@ -57,10 +57,10 @@ const Portfolio = () => {
             Portfolio
           </p>
           <p className=" py-6">
-            Check some of my work here.
+            Check some of work done here.
             <br />
-            Obs: Some of those projects are mobile app (Android and iOS), so you
-            may need download the Expo Go app to use it.
+            {/* Obs: Some of those projects are mobile app (Android and iOS), so you
+            may need download the Expo Go app to use it. */}
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
