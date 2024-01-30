@@ -1,5 +1,5 @@
 import React from "react";
-import installNode from "../assets/portfolio/installNode.jpg";
+import recipe from "../assets/portfolio/recipe-blog.png";
 import navBar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
@@ -16,7 +16,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      image: installNode,
+      image: recipe,
       href: "mailto:code_wizard_@outlook.com",
     },
     {
