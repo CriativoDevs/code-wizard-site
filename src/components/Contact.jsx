@@ -1,4 +1,5 @@
 import React from "react";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
         </div>
         <div className=" flex justify-center items-center">
           <form
-            action="https://getform.io/f/5139fc6d-2296-4cb9-8b83-e1655d19df52"
+            action="https://getform.io/f/pagxjmpb"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >
@@ -46,6 +47,19 @@ const Contact = () => {
               Let's talk
             </button>
           </form>
+        </div>
+        <div className="mt-16 text-center">
+          <div className="flex items-center justify-center">
+            <p className="text-center mr-2">If you prefer, send a message on</p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 text-white"
+              href="https://wa.me/message/OZNQX54WO67AO1"
+            >
+              <BsWhatsapp size={30} />
+            </a>
+          </div>
         </div>
       </div>
     </div>
