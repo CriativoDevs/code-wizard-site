@@ -1,5 +1,5 @@
 import React from "react";
-import recipe from "../assets/portfolio/recipe-blog.png";
+import CDSimpleStore from "../assets/portfolio/cdsimplestore.png";
 import navBar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
@@ -16,8 +16,8 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      image: recipe,
-      href: "mailto:code_wizard_@outlook.com",
+      image: CDSimpleStore,
+      href: "https://cdsimplestorefe-production.up.railway.app/",
     },
     {
       id: 3,
