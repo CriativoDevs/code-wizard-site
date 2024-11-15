@@ -13,22 +13,21 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-          quaerat. Distinctio quam laudantium recusandae numquam eum!
-          Recusandae, facilis repellendus error harum temporibus, eligendi
-          ratione numquam amet quasi nemo molestiae ipsam quos voluptas aliquam
-          dolor accusamus laudantium doloribus repudiandae pariatur. Blanditiis
-          vel eos ut beatae deserunt impedit adipisci numquam dolorum natus!
+          I am a Full Stack Developer with expertise in designing, maintaining,
+          and implementing new features for APIs and various projects. Through
+          my personal project, Criativo Devs, I manage all the applications and
+          systems I develop during my studies and freelance work. Criativo Devs
+          also serves as the launch platform for my upcoming mobile application.
         </p>
         <br />
         <p className="text-xl mt-8">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
-          corrupti velit tempora nulla repellendus? Reprehenderit, ut quidem
-          repudiandae fuga impedit eius dolor tempore quam, temporibus provident
-          est molestiae fugit nisi eos praesentium distinctio! Eaque eveniet
-          sapiente ullam quaerat, similique vel cupiditate tenetur
-          necessitatibus earum exercitationem quis, excepturi, facilis fugiat
-          inventore.
+          With a strong background in Python, Django, Django Rest Framework,
+          JavaScript, ReactJS, React Native Expo CLI, SQL, MySQL, PostgreSQL,
+          Git, and Docker, I am well-versed in creating tailored solutions that
+          drive results. Currently, I am learning AWS to stay ahead of market
+          trends and am proficient in professional English. My commitment to
+          clean, maintainable code and a solution- driven mindset make me
+          adaptable and ready to tackle complex challenges.
         </p>
       </div>
     </div>

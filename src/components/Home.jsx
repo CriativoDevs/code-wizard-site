@@ -15,8 +15,8 @@ const Home = () => {
             Hi, welcome to Criativo Devs.
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a Full Stack Developer of Code Wizard. I have more then 5 years
-            of experience, and I'm here to help you with your technology needs.
+            Full Stack Developer with over 5 years of experience in scalable
+            solutions, API development, and mobile applications
           </p>
           <div>
             <Link

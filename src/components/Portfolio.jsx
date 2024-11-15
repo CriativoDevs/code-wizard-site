@@ -1,10 +1,10 @@
 import React from "react";
 import CDSimpleStore from "../assets/portfolio/cdsimplestore.png";
-import navBar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import usestate from "../assets/portfolio/usestate.jpg";
+// import navBar from "../assets/portfolio/navbar.jpg";
+// import reactParallax from "../assets/portfolio/reactParallax.jpg";
+// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+// import reactWeather from "../assets/portfolio/reactWeather.jpg";
+// import usestate from "../assets/portfolio/usestate.jpg";
 import dentistaApp from '../assets/portfolio/dentistapp.png'
 
 const Portfolio = () => {
@@ -19,31 +19,31 @@ const Portfolio = () => {
       image: CDSimpleStore,
       href: "https://cdsimplestorefe-production.up.railway.app/",
     },
-    {
-      id: 3,
-      image: navBar,
-      href: "https://github.com/NemoIII",
-    },
-    {
-      id: 4,
-      image: reactParallax,
-      href: "#",
-    },
-    {
-      id: 5,
-      image: reactSmooth,
-      href: "#",
-    },
-    {
-      id: 6,
-      image: reactWeather,
-      href: "#",
-    },
-    {
-      id: 7,
-      image: usestate,
-      href: "#",
-    },
+    // {
+    //   id: 3,
+    //   image: navBar,
+    //   href: "https://github.com/NemoIII",
+    // },
+    // {
+    //   id: 4,
+    //   image: reactParallax,
+    //   href: "#",
+    // },
+    // {
+    //   id: 5,
+    //   image: reactSmooth,
+    //   href: "#",
+    // },
+    // {
+    //   id: 6,
+    //   image: reactWeather,
+    //   href: "#",
+    // },
+    // {
+    //   id: 7,
+    //   image: usestate,
+    //   href: "#",
+    // },
   ];
 
   return (
