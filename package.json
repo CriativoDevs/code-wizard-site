@@ -2,7 +2,7 @@
   "name": "criativo_site_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nemoIII.github.io/criativo-devs-site",
+  "homepage": "https://nemoIII.github.io/criativodevs-site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
