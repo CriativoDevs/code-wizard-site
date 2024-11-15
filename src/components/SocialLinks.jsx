@@ -15,7 +15,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/pablo-iii-bb7b88a2/",
-      style: "rounded-tr-md"
+      style: "rounded-tr-md",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const SocialLinks = () => {
           <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/NemoIII",
+      href: "https://github.com/CriativoDevs",
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ const SocialLinks = () => {
           <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:code_wizard_@outlook.com",
+      href: "mailto:criativo.devs@criativodevs.online",
     },
     {
       id: 5,
@@ -55,7 +55,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.fiverr.com/pablo_iii",
-      style: "rounded-br-md"
+      style: "rounded-br-md",
     },
     // {
     //   id: 5,
@@ -77,7 +77,11 @@ const SocialLinks = () => {
           <li
             key={id}
             // eslint-disable-next-line
-            className={"flex justify-center items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-2px] hover:rounded-md duration-300 bg-gray-500" + " " + style}
+            className={
+              "flex justify-center items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-2px] hover:rounded-md duration-300 bg-gray-500" +
+              " " +
+              style
+            }
           >
             <a
               href={href}

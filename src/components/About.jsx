@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-10">
           I am a Full Stack Developer with expertise in designing, maintaining,
           and implementing new features for APIs and various projects. Through
           my personal project, Criativo Devs, I manage all the applications and
